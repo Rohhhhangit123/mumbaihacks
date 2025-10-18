@@ -1,0 +1,266 @@
+[
+  {
+    "id": "CLM001",
+    "text": "City X water is radioactive after tank explosion",
+    "date": "2025-10-17",
+    "region": "Mumbai",
+    "confidence": 0.82,
+    "veracity": "Likely False",
+    "sources": ["https://city.gov/water-report.pdf", "https://twitter.com/post123"],
+    "cluster": "RadiationEvent2025",
+    "short_label": "False — City X water is safe.",
+    "plain_explanation": "Tests from the city lab show no radiation in the water. The explosion was at a chemical plant, not a nuclear facility.",
+    "technical_note": "Lab used gamma-spectrometry with detection limit <0.01 Bq/L. All samples below threshold.",
+    "latitude": 19.0760,
+    "longitude": 72.8777,
+    "status": "verified",
+    "flagged": false,
+    "topic": "Public Safety",
+    "supporting_evidence": [
+      {
+        "source": "City Health Department",
+        "url": "https://city.gov/water-report.pdf",
+        "excerpt": "All water samples tested negative for radiation",
+        "credibility": 0.95
+      }
+    ],
+    "refuting_evidence": [
+      {
+        "source": "Social Media Post",
+        "url": "https://twitter.com/post123",
+        "excerpt": "Unverified claims about radioactive water",
+        "credibility": 0.15
+      }
+    ]
+  },
+  {
+    "id": "CLM002",
+    "text": "Vaccine causes severe side effects in 80% of patients",
+    "date": "2025-10-16",
+    "region": "Delhi",
+    "confidence": 0.91,
+    "veracity": "False",
+    "sources": ["https://health.gov/vaccine-data", "https://facebook.com/post456"],
+    "cluster": "VaccineDisinfo2025",
+    "short_label": "False — Clinical data shows <1% severe reactions.",
+    "plain_explanation": "Extensive clinical trials involving 40,000 participants showed severe side effects in less than 1% of cases. The 80% figure has no scientific basis.",
+    "technical_note": "Phase III trials (n=40,127) reported severe adverse events in 0.7% of vaccine group vs 0.6% in placebo (p=0.32).",
+    "latitude": 28.7041,
+    "longitude": 77.1025,
+    "status": "verified",
+    "flagged": false,
+    "topic": "Health",
+    "supporting_evidence": [
+      {
+        "source": "Clinical Trial Data",
+        "url": "https://health.gov/vaccine-data",
+        "excerpt": "Severe adverse events: 0.7% in vaccine group",
+        "credibility": 0.98
+      }
+    ],
+    "refuting_evidence": [
+      {
+        "source": "Unverified Social Post",
+        "url": "https://facebook.com/post456",
+        "excerpt": "Claims 80% severe side effects without evidence",
+        "credibility": 0.08
+      }
+    ]
+  },
+  {
+    "id": "CLM003",
+    "text": "Government announces 3-day nationwide lockdown starting tomorrow",
+    "date": "2025-10-18",
+    "region": "Bangalore",
+    "confidence": 0.67,
+    "veracity": "Unverified",
+    "sources": ["https://whatsapp.forward/msg789", "https://news-fake.com/lockdown"],
+    "cluster": "LockdownRumors2025",
+    "short_label": "Unverified — No official government announcement found.",
+    "plain_explanation": "No official government channels have announced a lockdown. The claim appears to originate from unverified WhatsApp forwards.",
+    "technical_note": "Cross-referenced with official gov portals, PMO Twitter, and verified news agencies. No corroborating evidence found.",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "status": "unverified",
+    "flagged": true,
+    "topic": "Government Policy",
+    "supporting_evidence": [],
+    "refuting_evidence": [
+      {
+        "source": "Government Portal",
+        "url": "https://pib.gov.in",
+        "excerpt": "No lockdown announcements in official channels",
+        "credibility": 0.99
+      }
+    ]
+  },
+  {
+    "id": "CLM004",
+    "text": "Flood in Region Y kills 200 people, thousands homeless",
+    "date": "2025-10-15",
+    "region": "Kolkata",
+    "confidence": 0.88,
+    "veracity": "Partially True",
+    "sources": ["https://disaster.gov/floods", "https://news-verified.com/flood-report"],
+    "cluster": "FloodEvent2025",
+    "short_label": "Partially True — Confirmed flooding, but casualty numbers unverified.",
+    "plain_explanation": "Flooding has been confirmed in Region Y with significant displacement. However, the death toll of 200 is not verified by official sources, which report 12 confirmed deaths.",
+    "technical_note": "Official disaster management reports confirm flooding and 3,000+ displaced. Death toll: 12 confirmed, 28 missing. The 200 figure appears to be speculation.",
+    "latitude": 22.5726,
+    "longitude": 88.3639,
+    "status": "verified",
+    "flagged": false,
+    "topic": "Natural Disaster",
+    "supporting_evidence": [
+      {
+        "source": "National Disaster Management",
+        "url": "https://disaster.gov/floods",
+        "excerpt": "Confirmed flooding with 12 deaths and 28 missing",
+        "credibility": 0.97
+      }
+    ],
+    "refuting_evidence": [
+      {
+        "source": "Unverified News Site",
+        "url": "https://sensational-news.com/200-dead",
+        "excerpt": "Claims 200 deaths without official confirmation",
+        "credibility": 0.22
+      }
+    ]
+  },
+  {
+    "id": "CLM005",
+    "text": "AI will replace 90% of jobs by next year",
+    "date": "2025-10-14",
+    "region": "Hyderabad",
+    "confidence": 0.75,
+    "veracity": "False",
+    "sources": ["https://tech-blog.com/ai-jobs", "https://linkedin.com/post999"],
+    "cluster": "AIJobsMyth2025",
+    "short_label": "False — No credible economic forecasts support this timeline.",
+    "plain_explanation": "While AI is transforming the job market, credible economic research suggests gradual change over decades, not 90% replacement in one year.",
+    "technical_note": "IMF, World Bank, and OECD projections estimate 10-15% job displacement over 10-15 years, with simultaneous job creation in new sectors.",
+    "latitude": 17.3850,
+    "longitude": 78.4867,
+    "status": "verified",
+    "flagged": false,
+    "topic": "Technology",
+    "supporting_evidence": [
+      {
+        "source": "IMF Economic Report",
+        "url": "https://imf.org/ai-economy-2025",
+        "excerpt": "Gradual job transformation expected over 10-15 years",
+        "credibility": 0.96
+      }
+    ],
+    "refuting_evidence": [
+      {
+        "source": "Tech Blog",
+        "url": "https://tech-blog.com/ai-jobs",
+        "excerpt": "Sensationalized claim without economic modeling",
+        "credibility": 0.18
+      }
+    ]
+  },
+  {
+    "id": "CLM006",
+    "text": "Election results were manipulated using software hack",
+    "date": "2025-10-13",
+    "region": "Chennai",
+    "confidence": 0.79,
+    "veracity": "False",
+    "sources": ["https://conspiracy-site.com/election", "https://twitter.com/unverified999"],
+    "cluster": "ElectionDisinfo2025",
+    "short_label": "False — No evidence of electronic manipulation found.",
+    "plain_explanation": "Independent audits and paper trail verification confirmed election results. No evidence of software manipulation was found by election commission or independent observers.",
+    "technical_note": "Electronic voting machines use non-networked systems with paper trails. Post-election audits (15% sample) matched electronic and paper counts with 99.8% accuracy.",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "status": "verified",
+    "flagged": true,
+    "topic": "Politics",
+    "supporting_evidence": [
+      {
+        "source": "Election Commission Report",
+        "url": "https://eci.gov.in/audit-2025",
+        "excerpt": "Comprehensive audit found no irregularities",
+        "credibility": 0.98
+      }
+    ],
+    "refuting_evidence": [
+      {
+        "source": "Conspiracy Website",
+        "url": "https://conspiracy-site.com/election",
+        "excerpt": "Baseless claims without technical evidence",
+        "credibility": 0.05
+      }
+    ]
+  },
+  {
+    "id": "CLM007",
+    "text": "New energy drink contains banned substances causing hospitalizations",
+    "date": "2025-10-17",
+    "region": "Pune",
+    "confidence": 0.71,
+    "veracity": "Unverified",
+    "sources": ["https://food-safety.gov/alerts", "https://reddit.com/post777"],
+    "cluster": "FoodSafety2025",
+    "short_label": "Under Investigation — Food safety authority investigating claims.",
+    "plain_explanation": "Food safety authorities are investigating reports of adverse reactions. Lab testing is underway, but no banned substances have been confirmed yet.",
+    "technical_note": "3 hospitalization cases reported. Preliminary toxicology pending. Product not yet recalled pending lab results (ETA: 48 hours).",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "status": "unverified",
+    "flagged": true,
+    "topic": "Consumer Safety",
+    "supporting_evidence": [
+      {
+        "source": "Food Safety Authority",
+        "url": "https://food-safety.gov/alerts",
+        "excerpt": "Investigation ongoing, preliminary tests inconclusive",
+        "credibility": 0.92
+      }
+    ],
+    "refuting_evidence": []
+  },
+  {
+    "id": "CLM008",
+    "text": "Meteor strike imminent in coastal cities, evacuate immediately",
+    "date": "2025-10-18",
+    "region": "Goa",
+    "confidence": 0.93,
+    "veracity": "False",
+    "sources": ["https://space-agency.gov", "https://whatsapp.forward/meteor"],
+    "cluster": "SpaceHoax2025",
+    "short_label": "False — No meteor threat detected by any space agency.",
+    "plain_explanation": "All major space agencies confirm no meteor or asteroid poses any threat to Earth. This is a baseless panic-inducing hoax.",
+    "technical_note": "Near-Earth Object tracking systems (NASA, ESA, ISRO) show no objects on collision course. Next closest approach: 2.4M km in 3 months.",
+    "latitude": 15.2993,
+    "longitude": 74.1240,
+    "status": "verified",
+    "flagged": false,
+    "topic": "Public Safety",
+    "supporting_evidence": [
+      {
+        "source": "NASA Near-Earth Object Program",
+        "url": "https://cneos.jpl.nasa.gov",
+        "excerpt": "No near-Earth objects pose threat in next 12 months",
+        "credibility": 0.99
+      },
+      {
+        "source": "ISRO",
+        "url": "https://isro.gov.in/asteroid-watch",
+        "excerpt": "All tracked objects outside threat radius",
+        "credibility": 0.99
+      }
+    ],
+    "refuting_evidence": [
+      {
+        "source": "WhatsApp Forward",
+        "url": "https://whatsapp.forward/meteor",
+        "excerpt": "Panic-inducing message with no scientific basis",
+        "credibility": 0.02
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2025-10-11",
+    "totalClaims": 45,
+    "verifiedFalse": 28,
+    "verifiedTrue": 12,
+    "unverified": 5
+  },
+  {
+    "date": "2025-10-12",
+    "totalClaims": 52,
+    "verifiedFalse": 31,
+    "verifiedTrue": 15,
+    "unverified": 6
+  },
+  {
+    "date": "2025-10-13",
+    "totalClaims": 61,
+    "verifiedFalse": 38,
+    "verifiedTrue": 17,
+    "unverified": 6
+  },
+  {
+    "date": "2025-10-14",
+    "totalClaims": 58,
+    "verifiedFalse": 35,
+    "verifiedTrue": 16,
+    "unverified": 7
+  },
+  {
+    "date": "2025-10-15",
+    "totalClaims": 73,
+    "verifiedFalse": 47,
+    "verifiedTrue": 19,
+    "unverified": 7
+  },
+  {
+    "date": "2025-10-16",
+    "totalClaims": 68,
+    "verifiedFalse": 42,
+    "verifiedTrue": 18,
+    "unverified": 8
+  },
+  {
+    "date": "2025-10-17",
+    "totalClaims": 79,
+    "verifiedFalse": 51,
+    "verifiedTrue": 20,
+    "unverified": 8
+  },
+  {
+    "date": "2025-10-18",
+    "totalClaims": 85,
+    "verifiedFalse": 54,
+    "verifiedTrue": 22,
+    "unverified": 9
+  }
+]

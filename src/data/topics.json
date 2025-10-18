@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Public Safety",
+    "count": 147,
+    "trend": "up"
+  },
+  {
+    "name": "Health",
+    "count": 132,
+    "trend": "up"
+  },
+  {
+    "name": "Politics",
+    "count": 98,
+    "trend": "stable"
+  },
+  {
+    "name": "Technology",
+    "count": 76,
+    "trend": "down"
+  },
+  {
+    "name": "Natural Disaster",
+    "count": 63,
+    "trend": "up"
+  },
+  {
+    "name": "Consumer Safety",
+    "count": 42,
+    "trend": "stable"
+  },
+  {
+    "name": "Government Policy",
+    "count": 38,
+    "trend": "up"
+  }
+]

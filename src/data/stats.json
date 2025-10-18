@@ -1,0 +1,8 @@
+{
+  "totalClaims": 521,
+  "verifiedClaims": 487,
+  "misinformationClusters": 34,
+  "activeCrises": 7,
+  "accuracyRate": 93.5,
+  "avgResponseTime": "4.2 hours"
+}
